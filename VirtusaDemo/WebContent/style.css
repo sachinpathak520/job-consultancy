@@ -1,0 +1,120 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.header{
+	background-color:blue;
+}
+
+.hero {
+height: 50%;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(register.jpg);
+background-position: center;
+background-size: cover;
+position: absolute;
+}
+
+.form-box {
+width: 320px;
+height: 525px;
+position: relative;
+margin: 2.5% auto;
+background: #fffdd0;
+padding: 5px;
+overflow: hidden;
+border-radius: 30px;
+}
+
+.form-box1 {
+width: 300px;
+height: 250px;
+position: relative;
+margin: 12% auto;
+background: #fffdd0;
+padding: 5px;
+overflow: hidden;
+border-radius: 30px;
+}
+
+.button-box {
+width: 230px;
+margin: 35px auto;
+position: relative;
+box-shadow: 0 0 20px 9px #ff61241f;
+border-radius: 30px;
+}
+
+.toggle-btn {
+padding: 10px 30px;
+cursor: pointer;
+background: transparent;
+border: 0;
+outline: none;
+position: relative;
+}
+
+#btn {
+top: 0;
+left: 0;
+position: absolute;
+width: 120px;
+height: 100%;
+/* background: linear-gradient(to right, #ff105f, #ffad06);*/
+/* background: linear-gradient(to right, #fffdd0, #c80000);*/
+background: #ff3300;
+border-radius: 30px;
+transition: .5s;
+}
+
+.input-group {
+top: 90px;
+position: absolute;
+width: 280px;
+transition: .5s;
+}
+
+.input-group1 {
+top: 45px;
+position: absolute;
+width: 280px;
+transition: .5s;
+}
+
+.input-field {
+width: 80%;
+padding: 10px 0;
+margin: 5px 0;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+border-bottom: 1px solid #555;
+outline: none;
+background-color: transparent;
+}
+
+.submit-btn {
+width: 70%;
+padding: 10px 30px;
+cursor: pointer;
+display: block;
+/* margin: auto;*/
+background: #ff3300;
+border: 0;
+outline: none;
+border-radius: 30px;
+
+}
+
+#Employee {
+left: 30px;
+}
+
+#Student {
+left: 450px;
+}
+
+#User {
+left: 30px;
+}
