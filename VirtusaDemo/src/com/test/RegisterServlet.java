@@ -195,7 +195,7 @@ public class RegisterServlet extends HttpServlet{
     		                ps.execute();
     		                
     		                
-    		               
+    		                response.sendRedirect("login.jsp");
     		                RequestDispatcher rd=getServletContext().getRequestDispatcher("/login.html");
     		                PrintWriter out=response.getWriter();
     		                out.println("<h3><font color=green>Registration successful! You can login now.</font></h3>");

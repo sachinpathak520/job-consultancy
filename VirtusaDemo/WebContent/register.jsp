@@ -17,7 +17,7 @@
 
 </div>
 
-<form id="Employee" class="input-group" action="register" method="post" onsubmit="return validation(this)">
+<form id="Employee" class="input-group" action="Register" method="post" onsubmit="return validation(this)">
 <input type="text" id="e_fname" name="e_fname" class="input-field" placeholder="First Name" required>
 <input type="text" id="e_lname" name="e_lname" class="input-field" placeholder="Last Name" required>
 <input type="email" id="e_email" name="e_email" class="input-field" placeholder="Email" required>
@@ -30,7 +30,7 @@
 If you are already a registered user please <a href="login.html">login</a>
 </form>
 
- <form id="Student" class="input-group" action="register" method="post" onsubmit="return validation1(this)">
+ <form id="Student" class="input-group" action="Register" method="post" onsubmit="return validation1(this)">
 <input type="text" id="s_fname"  name="s_fname" class="input-field" placeholder="First Name" required>
 <input type="text" id="s_lname" name="s_lname" class="input-field" placeholder="Last Name" required>
 <input type="email" id="s_email" name="s_email" class="input-field" placeholder="Email" required>
