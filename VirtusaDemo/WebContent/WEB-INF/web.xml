@@ -6,6 +6,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 <servlet>
 <servlet-name>RegisterServlet</servlet-name>
 <servlet-class>com.test.RegisterServlet</servlet-class>
+<multipart-config />
 </servlet>
 
 <servlet-mapping>

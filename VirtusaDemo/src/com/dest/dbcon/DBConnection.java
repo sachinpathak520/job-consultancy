@@ -9,7 +9,7 @@ public class DBConnection {
 			
 			DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
 			
-		 con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "system");
+		 con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:9092:xe", "system", "system");
 			
 			
 		} catch (Exception e) {

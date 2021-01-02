@@ -17,8 +17,8 @@
 		<a href = "about.html" class="btn btn-primary">About Us</a>
 		<a href = "contact.html" class="btn btn-primary">Contact Us</a>
 		<a href = "#" class="btn btn-primary">Job Search</a>
-		<a href = "login.html" class="btn btn-danger">Log in</a>
-		<a href = "register.html" class="btn btn-warning">Register</a>
+		<a href = "login.jsp" class="btn btn-danger">Log in</a>
+		<a href = "register.jsp" class="btn btn-warning">Register</a>
 	</div>
 </header>
 <section >

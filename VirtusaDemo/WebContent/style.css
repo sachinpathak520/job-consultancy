@@ -8,7 +8,7 @@ padding: 0;
 }
 
 .hero {
-height: 50%;
+height: 100%;
 width: 100%;
 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(register.jpg);
 background-position: center;
@@ -17,8 +17,8 @@ position: absolute;
 }
 
 .form-box {
-width: 320px;
-height: 525px;
+width: 400px;
+height: 800px;
 position: relative;
 margin: 2.5% auto;
 background: #fffdd0;
@@ -39,7 +39,7 @@ border-radius: 30px;
 }
 
 .button-box {
-width: 230px;
+width: 300px;
 margin: 35px auto;
 position: relative;
 box-shadow: 0 0 20px 9px #ff61241f;
@@ -68,14 +68,14 @@ border-radius: 30px;
 transition: .5s;
 }
 
-.input-group {
+.input-groups {
 top: 90px;
 position: absolute;
 width: 280px;
 transition: .5s;
 }
 
-.input-group1 {
+.input-groups1 {
 top: 45px;
 position: absolute;
 width: 280px;
@@ -83,7 +83,7 @@ transition: .5s;
 }
 
 .input-field {
-width: 80%;
+width: 100%;
 padding: 10px 0;
 margin: 5px 0;
 border-left: 0;
